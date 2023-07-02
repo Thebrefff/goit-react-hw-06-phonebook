@@ -11,8 +11,6 @@ import {
 
 import contactsReducer from './contacts/contactsSlice';
 
-// contactsReducer - те саме persistContactsSlice
-
 export const store = configureStore({
   reducer: { contacts: contactsReducer },
   middleware: getDefaultMiddleware =>
